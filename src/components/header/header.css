@@ -1,0 +1,110 @@
+/* Reset some base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header container */
+.main-header {
+  background-color: #333;  /* dark background */
+  color: white;            /* white text */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Logo text */
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Navigation menu */
+.menu {
+  /* nothing extra needed here, flex is on header */
+}
+
+/* Right menu list */
+.right-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu items */
+.right-menu li {
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  color: white;
+}
+/* Style the actual <Link> inside the list item */
+.right-menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.right-menu a:hover {
+  color: #f0a500; /* your nice orange/yellow */
+}
+
+
+.right-menu a:hover {
+  color: #f0a500;
+}
+
+.right-menu a:active {
+  color: #f0a500;
+}
+
+.right-menu a:visited {
+  color: white;
+}
+
+
+/* Hover effect */
+.right-menu li:hover {
+  color: #f0a500; /* some nice accent color */
+}
+
+.right-menu a.active-link {
+  color: #f0a500 !important;   /* Bright orange/yellow */
+  font-weight: bold !important;
+  border-bottom: 2px solid #f0a500;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a202c;
+  font-family: 'Poppins', sans-serif;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 1.5rem;
+  animation: rotate 6s linear infinite;
+}
+
+.logo-text {
+  color: #0077b6;
+}
+
+.highlight {
+  color: #ff6600;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+

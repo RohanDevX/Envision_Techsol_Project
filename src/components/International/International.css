@@ -1,0 +1,143 @@
+.international-section {
+  position: relative;
+  overflow-x: hidden;
+  background: #fefbe9;
+  padding-top: 20px;
+}
+
+.video-container {
+  position: relative;
+  height: 40vh; /* Less tall */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.international-section .video-container video {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.video-overlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+
+/* Slider overlaps 35% of the card height */
+.slider-section {
+  position: relative;
+  width: 80%;
+  margin: -180px auto 0; /* deeper overlay (60% of card height) */
+  z-index: 10;
+}
+
+
+
+.swiper {
+  padding-bottom: 40px;
+}
+
+/* Card Styles */
+.card {
+  position: relative;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 240px;        /* wider card */
+  height: 300px;       /* taller card */
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px 0;
+}
+
+/* Swiper arrow spacing fix */
+/* Decorative slider buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 36px;
+  height: 36px;
+  background: transparent; /* No white circle */
+  border: none;            /* No border */
+  box-shadow: none;        /* No shadow */
+  border-radius: 0;        /* No rounding */
+  cursor: pointer;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: initial;          /* Show default arrow color */
+}
+
+/* Remove custom SVG arrows */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: ''; /* Remove custom arrow background */
+  display: inline-block;  /* Let default arrow show */
+  width: auto;
+  height: auto;
+  background: none;
+  background-size: none;
+  background-repeat: none;
+  font-size: 18px; /* Optional: adjust arrow size */
+  font-weight: bold;
+  color: #007bff; /* Optional: blue color for arrow */
+}
+
+/* Hover effect */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  transform: scale(1.1);
+}
+
+/* Position tweaks */
+.swiper-button-prev {
+  left: -25px;
+}
+
+.swiper-button-next {
+  right: -25px;
+}
+
+/* Padding for international section */
+.international-section {
+  padding-bottom: 100px; /* Add space below cards */
+}
+
+
+
+
+
+
+
+
