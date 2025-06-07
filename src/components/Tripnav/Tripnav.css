@@ -131,7 +131,6 @@
   transition: transform 0.3s ease;
   user-select: none;
 }
-
 @keyframes fadeSlideDown {
   from {
     opacity: 0;
@@ -140,32 +139,5 @@
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@media (max-width: 768px) {
-  .tripnav {
-    justify-content: flex-start;
-    padding: 15px;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .tripnav-menu {
-    display: none;
-    width: 100%;
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .tripnav-menu.open {
-    display: flex;
-  }
-
-  /* Disable hover dropdown on mobile, use click only */
-  .dropdown:hover .dropdown-menu {
-    display: none !important;
   }
 }
