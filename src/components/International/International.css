@@ -134,6 +134,75 @@
   padding-bottom: 100px; /* Add space below cards */
 }
 
+@media (max-width: 768px) {
+  .international-section {
+    padding: 10px 15px 50px; /* less padding on mobile */
+  }
+
+  .video-container {
+    height: 25vh; /* reduce video height on mobile */
+  }
+
+  .international-section .video-container video {
+    width: 100%; /* full width on mobile */
+    border-radius: 12px;
+  }
+
+  .video-overlay {
+    top: 20%;
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .slider-section {
+    width: 95%;
+    margin: -120px auto 0; /* less negative margin for smaller screen */
+  }
+
+  .card {
+    width: 180px;  /* narrower cards */
+    height: 230px; /* shorter cards */
+  }
+
+  .card p {
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+
+  /* Adjust swiper arrows position */
+  .swiper-button-prev {
+    left: -10px;
+  }
+  .swiper-button-next {
+    right: -10px;
+  }
+}
+
+.explore-btn {
+  background-color: #0077b6; /* matching your blue theme */
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 119, 182, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.explore-btn:hover {
+  background-color: #005f8a;
+  transform: scale(1.05);
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .explore-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
+}
 
 
 
