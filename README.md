@@ -1,8 +1,7 @@
 # 🧳 TravelHub - Your Ultimate Travel Companion
 
 > "Plan. Explore. Experience. — Simplify your travel journey with TravelHub."
-
-![TravelHub Banner](public/banner.png) <!-- Optional: add a travel-related image here -->
+<!-- Optional: add a travel-related image here -->
 
 Welcome to **TravelHub**, a modern travel booking and exploration web app built with **ReactJS 19** and **Tailwind CSS**. Whether you are planning your next vacation or exploring exotic destinations — TravelHub is designed to make your journey easier and unforgettable.
 
