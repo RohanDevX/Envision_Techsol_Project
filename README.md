@@ -28,7 +28,7 @@ Welcome to **TravelHub**, a modern travel booking and exploration web app built 
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/h/t.git
+git clone https://github.com/RohanDevX/Envision_Techsol_project.git
 cd travelhub
 npm install
 npm start
