@@ -21,7 +21,7 @@ Welcome to **TravelHub**, a modern travel booking and exploration web app built 
 
 | Frontend      | Styling       | State Management | Routing   |
 |--------------|--------------|-----------------|-----------|
-| ReactJS 19   | Tailwind CSS | React Context API / Redux (if used) | React Router |
+| ReactJS 19   |  CSS | React Context API | React Router |
 
 ---
 
